@@ -1,0 +1,1 @@
+Novo projeto utilizando Tailwind.css, como não vamos mais utilizar a arquitetura MVC, não fizemos ela em MVC no momento, vamos esperar o avanço das aulas para reescrever o projeto em REACT, e da nova arquitetura do Backend

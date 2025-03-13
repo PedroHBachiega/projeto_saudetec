@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-blue-200">
+    <div class="flex flex-col h-screen">
+        <!-- Header -->
+        <div class="bg-blue-500 text-white text-center py-4 relative">
+            <a href="index.html"><i class="fas fa-times text-white text-xl absolute left-4"></i></a>
+            <h1 class="text-xl font-semibold">Agendamento</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1 p-4">
+            <!-- New Appointment Section -->
+            <div>
+                <h2 class="text-lg font-semibold">Novos agendamento</h2>
+                <div class="flex items-center mt-2">
+                    <i class="fas fa-search text-lg"></i>
+                    <input type="text" placeholder="Pesquisa aqui" class="ml-2 p-2 border rounded-md w-full">
+                </div>
+            </div>
+
+            <!-- Quick Search Section -->
+            <div class="mt-6">
+                <h2 class="text-lg font-semibold">Busca rápida</h2>
+                <div class="flex flex-wrap mt-2">
+                    <button class="flex items-center mr-4 mb-2 p-2 bg-white rounded-md shadow-md">
+                        <i class="fas fa-utensils text-orange-500"></i>
+                        <span class="ml-2">Nutricionista</span>
+                    </button>
+                    <button class="flex items-center mr-4 mb-2 p-2 bg-white rounded-md shadow-md">
+                        <i class="fas fa-user-md text-yellow-500"></i>
+                        <span class="ml-2">Psicólogo</span>
+                    </button>
+                    <button class="flex items-center mb-2 p-2 bg-white rounded-md shadow-md">
+                        <i class="fas fa-dumbbell text-orange-500"></i>
+                        <span class="ml-2">Treinos</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- My Appointments Section -->
+            <div class="mt-6">
+                <h2 class="text-lg font-semibold">Meus agendamentos</h2>
+                <div class="mt-2 space-y-4">
+                    <div class="bg-white p-4 rounded-md shadow-md h-20"></div>
+                    <div class="bg-white p-4 rounded-md shadow-md h-20"></div>
+                </div>
+            </div>
+        </div>
+
+  <!-- Footer -->
+  <footer class="w-full bg-blue-500 text-white flex justify-around items-center p-4">
+    <a href="index.html"><button class="flex flex-col items-center">
+        <i class="fas fa-search text-2xl"></i>
+        <p class="text-sm">Explorar</p>
+    </button></a>
+   <a href="comunidade.html"><button class="flex flex-col items-center">
+    <i class="fas fa-users text-2xl"></i>
+    <p class="text-sm">Comunidade</p>
+</button></a> 
+   <a href="telaconfig.html"><button class="flex flex-col items-center">
+    <i class="fas fa-cog text-2xl"></i>
+    <p class="text-sm">Configurações</p>
+</button></a> 
+</footer>
+        </div>
+    </div>
+</body>
+</html>
